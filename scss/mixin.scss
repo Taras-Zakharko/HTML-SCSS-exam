@@ -1,0 +1,49 @@
+@mixin bg_blue_buttom{
+	background: #3C75C6;
+					background: -moz-linear-gradient(top, #3C75C6 0%, #1C529F 50%, #1B3F74 100%);
+					background: -webkit-linear-gradient(top, #3C75C6 0%, #1C529F 50%, #1B3F74 100%);
+					background: linear-gradient(to bottom, #3C75C6 0%, #1C529F 50%, #1B3F74 100%);
+}
+@mixin bg_greyblock{
+	background: #FAFAF9;
+		background: -moz-linear-gradient(top, #FAFAF9 0%, #EEEEED 50%, #E2E2E3 100%);
+		background: -webkit-linear-gradient(top, #FAFAF9 0%, #EEEEED 50%, #E2E2E3 100%);
+		background: linear-gradient(to bottom, #FAFAF9 0%, #EEEEED 50%, #E2E2E3 100%);
+}
+@mixin footer_input_bg{
+	background: none;
+	border: none;
+	background-color: #242439;
+	border-radius: 6px;
+	border: 1px inset #4E4E5E;
+}
+@mixin bg_iphone_apps_button{
+	background: #48485C;
+background: -moz-linear-gradient(top, #48485C 0%, #3f3f52 50%, #373748 100%);
+background: -webkit-linear-gradient(top, #48485C 0%, #3f3f52 50%, #373748 100%);
+background: linear-gradient(to bottom, #48485C 0%, #3f3f52 50%, #373748 100%);
+}
+@mixin bg_download_button{
+	background: #604EA0;
+background: -moz-linear-gradient(top, #604EA0 0%, #53428A 50%, #453574 100%);
+background: -webkit-linear-gradient(top, #604EA0 0%, #53428A 50%, #453574 100%);
+background: linear-gradient(to bottom, #604EA0 0%, #53428A 50%, #453574 100%);
+}
+@mixin social_link_bg{
+	background: #A5B3CF;
+background: -moz-linear-gradient(-45deg, #A5B3CF 0%, #506AA2 50%, #36518B 100%);
+background: -webkit-linear-gradient(-45deg, #A5B3CF 0%, #506AA2 50%, #36518B 100%);
+background: linear-gradient(135deg, #A5B3CF 0%, #506AA2 50%, #36518B 100%);
+}
+@mixin social_link_bg_hover{
+	background: #C2F2FC;
+background: -moz-linear-gradient(-45deg, #C2F2FC 0%, #6CD3EC 50%, #0FB1DE 100%);
+background: -webkit-linear-gradient(-45deg, #C2F2FC 0%, #6CD3EC 50%, #0FB1DE 100%);
+background: linear-gradient(135deg, #C2F2FC 0%, #6CD3EC 50%, #0FB1DE 100%);
+}
+@mixin darck_button_bg{
+	background: #636370;
+background: -moz-linear-gradient(top, #636370 0%, #555563 50%, #434352 100%);
+background: -webkit-linear-gradient(top, #636370 0%, #555563 50%, #434352 100%);
+background: linear-gradient(to bottom, #636370 0%, #555563 50%, #434352 100%);
+}

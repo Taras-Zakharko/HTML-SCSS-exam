@@ -1,0 +1,37 @@
+$(document).ready(function(){
+  $('.dublinscarousel').owlCarousel({
+	dots:false,
+    loop:false,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+	$('.two_carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+	dots:false,
+    margin: 76,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+});
